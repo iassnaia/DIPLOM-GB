@@ -157,3 +157,5 @@ f.close()
 print(f"Result of story number {numberOfStory} is: {result}%")
 print("Where 50%-70% is good, 70%-90% is normal, 90%-100% is bad.")
 print("To see all yours results: out/results.txt.")
+
+
