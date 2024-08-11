@@ -1,53 +1,33 @@
-# Welcome to the stressDisorderClassification!
+### Шаг 1: Установка и настройка окружения
+1.1. *Требования к системе*
+- Операционная система: Linux, macOS или Windows
+- Python: версия 3.10 или выше
+- Инструменты разработки: PyCharm (рекомендуется)
+1.2. *Установка Python и необходимых библиотек*
+1. Установите Python:
+   - *На Windows:* Скачайте и установите с Python.org.
+   - *На macOS:* Используйте команду `brew install python`.
+   - *На Linux:* Используйте пакетный менеджер вашей ОС (например, `apt` на Ubuntu).
+2. Создайте виртуальное окружение:
+   bash
+   python -m venv venv
+   source venv/bin/activate  # macOS/Linux
+   .\venv\Scripts\activate  # Windows
+  3. Установите необходимые библиотеки:
+   bash
+   pip install -r requirements.txt
+  ### Шаг 2: Запуск программы
+1. В терминале перейдите в директорию проекта.
+2. Запустите программу:
+   bash
+   python stressDisorderClassification.py
 
-Yours stories can make you more helthy.
 
-Let's look at some examples (story 2, story3, story4).
-
-There are different, have their oun pluses and minuses. 
-
-That means that parameters of these storys (of these clients) are different too. 
-
-Thirstly it works because there are dependecies between clients and their stories.
-
-Secondly it works because there are dependecies between stories and parameters.
-
-If we know parameters, we know procent of our disorder level.
-
-Then you can make the decign to be more healthy, if your health is bad, or don't do anything with your health, if it's good (for example).
-
-Warning! This solver have row data and can be optimized.
-## Installation
-
-First of all get new dependecies for the project:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-Repository have 3 stories: story 2, story 3, story 4.
-
-Write in cmd to start: 
-```bash
-py stressDisorderClassification.py
-```
-After that writre number of the story (2-4).
-
-Wait a few minutes and get the result.
-
-## How it works
-
-1. Story comes to slover algorithm.
-2. Slover algorithm have special words to make decign what parameter will be active.
-3. Parameters optimized from the ai formula named sigmoid function. 
-4. Algorithm makes the division: Sum of parameters / Count of parameters. In result we have procent of our disoder level.
-
-## Coding instruments
+## Инструменты кодирования
 Python 3.10
 
 PyCharm 
 
-## License
+## Лицензия
 
 [MIT](https://choosealicense.com/licenses/mit/)
